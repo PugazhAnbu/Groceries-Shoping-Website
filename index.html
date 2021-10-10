@@ -1,0 +1,106 @@
+<!DOCTYPE >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dash Groceries</title>
+
+        <link rel="stylesheet" href="CSS/stylesheet.css">
+    </head>
+    <body>
+
+        <!-- THIS IS THE NAVIGATION LINKS OF THE PAGES -->
+        <div class="nav-wrapper">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-items">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                    <li>
+                        <a href="#">Order Online</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- THIS IS BACKGROUND IMAGE OF THE PAGE -->
+        <div class="image-holder">
+            <img class="background-image" src="images/bg-img.jpg" width="100%">
+            <h1 id="caption-1">GROCERY SHOPPING DONE ONLINE</h1>
+        </div>
+        <h1 id="pop-cat">POPULAR CATEGORIES</h1>
+        <hr width="1300">
+        <div class="featured-wrapper">
+
+            <!-- THIS IS THE DAIRY PRODUCTS -->
+            <div class="dairy-products">
+                <p class="cat-text">Dairy Products</p>
+                <img src="images/diary products.jpg" width="250px">
+                <div class="btn-container">
+                    <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+                </div>
+            </div>
+
+            <!-- THIS IS THE FRUITS AND VEG CATEGORIES -->
+            <div class="dairy-products">
+                <p class="cat-text">Fruits and Veg</p>
+                <img src="images/fruits-veg.jpg" width="250px">
+                <div class="btn-container">
+                    <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+                </div>
+            </div>
+
+            <!-- THIS IS THE COLD MEATS CATEGORIES -->
+            <div class="dairy-products">
+                <p class="cat-text">Cold-Meats</p>
+                <img src="images/cold-meats.jpg" width="250px">
+                <div class="btn-container">
+                    <button class="view-more-button" type="button" name="button">VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- THIS IS THE SOCIAL MEDIA LINKS -->
+        <div id="social-media-containers">
+            <div id="facebook-icon-container">
+                <img src="images/icons/fb2.png" width="50px" alt="">
+            </div>
+            <div id="twitter-icon-container">
+                
+                <img src="images/icons/twitter.png" width="50px"  alt="">
+            </div>
+            <div id="instagram-icon-container">
+                <img src="images/icons/insta.png" width="50px"  alt="">
+            </div>
+        </div>
+
+        <!-- THIS IS THE HOLDER FOR THE FORM -->
+        <div class="form-container">
+            <div class="form-head-container">
+                <img id="email-icon" src="images/email-icon.jpg"  width="25%"alt="">
+                <p id="contact-us">Contact Us</p>
+            </div>
+            <form action="">
+                <label class="form-item" for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="your name">
+                <br><br>
+
+                <label class="form-item" for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="your last name">
+                <br><br>
+
+                <label class="form-item" for="subject">subject</label>
+                <textarea id="subject" name="subject" placeholder="How can we help?"></textarea>
+                <br>
+                <input type="submit" id="submit-btn" value="Submit">
+            </form>
+
+        </div>
+    </body>
+</html>
